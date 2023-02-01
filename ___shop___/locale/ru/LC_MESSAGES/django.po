@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-24 11:40+0400\n"
+"POT-Creation-Date: 2023-01-11 02:58+0400\n"
 "PO-Revision-Date: 2023-01-10 21:51+0000\n"
 "Last-Translator: Anonymous User <megano@megano.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -522,15 +522,15 @@ msgstr ""
 msgid "Приложение «Магазин»"
 msgstr ""
 
-#: .\app_shop\views.py:27
+#: .\app_shop\views.py:32
 msgid "Главная страница магазина"
 msgstr ""
 
-#: .\app_shop\views.py:55 .\templates\general\header\nav.html:19
+#: .\app_shop\views.py:60 .\templates\general\header\nav.html:19
 msgid "Каталог"
 msgstr ""
 
-#: .\app_shop\views.py:56
+#: .\app_shop\views.py:61
 msgid "Каталог товаров"
 msgstr ""
 
@@ -817,12 +817,10 @@ msgstr ""
 
 #: .\templates\general\catalog\pagination.html:5
 #: .\templates\general\catalog\pagination.html:6
-#: .\templates\general\catalog\pagination_filters_django.html:7
 msgid "Первая страница"
 msgstr ""
 
 #: .\templates\general\catalog\pagination.html:38
-#: .\templates\general\catalog\pagination_filters_django.html:35
 msgid "Последняя страница"
 msgstr ""
 

@@ -31,18 +31,18 @@ class ProductFilter(PropertyFilterSet):
         field_name='limited_edition',
         widget=ShopCheckboxInput
     )
-    # product_property = LookupChoiceFilter(
-    #     field_name='product_property__property__name',
-    #     lookup_choices=[
-    #         (property_name, property_name) for property_name in PropertyName.objects.all()
-    #     ]
-    # )
-    # product_values = LookupChoiceFilter(
-    #     field_name='product_property__value__value',
-    #     lookup_choices=[
-    #         (property_value, property_value) for property_value in PropertyValue.objects.all()
-    #     ]
-    # )
+    product_property = LookupChoiceFilter(
+        field_name='product_property__property__name',
+        lookup_choices=[
+            (property_name, property_name) for property_name in PropertyName.objects.all()
+        ]
+    )
+    product_values = LookupChoiceFilter(
+        field_name='product_property__value__value',
+        lookup_choices=[
+            (property_value, property_value) for property_value in PropertyValue.objects.all()
+        ]
+    )
     
     price = django_filters.CharFilter(
         method='price_range',
