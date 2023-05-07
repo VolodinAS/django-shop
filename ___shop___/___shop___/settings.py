@@ -59,16 +59,17 @@ INSTALLED_APPS = [
     'bootstrap_modal_forms',
     'widget_tweaks',
     
+    
     'app_tags.apps.AppTagsConfig',
     'app_import.apps.AppImportConfig',
     'app_users.apps.AppUsersConfig',
     'app_shop.apps.AppShopConfig',
     'app_categories.apps.AppCategoriesConfig',
-    'app_product.apps.AppProductConfig',
     'app_orders.apps.AppOrdersConfig',
     'app_settings.apps.AppSettingsConfig',
     'app_reviews.apps.AppReviewsConfig',
     'app_cart.apps.AppCartConfig',
+    'app_product.apps.AppProductConfig',
 ]
 
 MIDDLEWARE = [
