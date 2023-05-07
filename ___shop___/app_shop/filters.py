@@ -7,6 +7,7 @@ from django_property_filter import PropertyOrderingFilter
 
 from app_product.models import PropertyName
 from app_product.models import PropertyValue
+from utils.check_model import check_model
 from .utils import *
 from .widgets import ShopCheckboxInput
 from .widgets import ShopLinkWidget
