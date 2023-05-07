@@ -7,9 +7,9 @@
 4. Прописать в `.env` логин и пароль административной панели (согласно `.env.template`)
 5. Создать миграции: `python manage.py makemigrations`
 6. Применить миграции: `python manage.py migrate --run-syncdb`
-7. Запустить команду импорта фикстур из папки проекта `___shop___`: `python manage.py loaddata app_import/fixtures/main_data.json`
-8. Запустить сервер: `python manage.py runserver`
-9. Запустить команду создания суперпользователя из папки проекта `___shop___`: `python manage.py createadmin`
+7. Запустить сервер: `python manage.py runserver`
+8. Запустить команду создания суперпользователя из папки проекта `___shop___`: `python manage.py createadmin`
+9. Запустить команду импорта фикстур из папки проекта `___shop___`: `python manage.py loaddata app_import/fixtures/main_data.json`
 
 ### Основные библиотеки:
 * [Django == 4.1.4](https://docs.djangoproject.com/en/4.1/) - основной фреймворк
