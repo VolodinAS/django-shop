@@ -36,13 +36,13 @@ class ProductFilter(PropertyFilterSet):
         field_name='product_property__property__name',
         lookup_choices=[
             (property_name, property_name) for property_name in PropertyName.objects.all()
-        ]
+        ] if db_table_exists('product_properties') else []
     )
     product_values = LookupChoiceFilter(
         field_name='product_property__value__value',
         lookup_choices=[
             (property_value, property_value) for property_value in PropertyValue.objects.all()
-        ]
+        ] if db_table_exists('property_value') else []
     )
     
     price = django_filters.CharFilter(
